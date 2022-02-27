@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Mont';
+    src: url('/fonts/mont/Mont-SemiBold.woff2') format('woff2'),
+      url('/fonts/mont/Mont-SemiBold.woff') format('woff'),
+      url('/fonts/mont/Mont-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Mont';
+    src: url('/fonts/mont/Mont-Bold.woff2') format('woff2'),
+      url('/fonts/mont/Mont-Bold.woff') format('woff'),
+      url('/fonts/mont/Mont-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Mont';
+    src: url('/fonts/mont/Mont-Regular.woff2') format('woff2'),
+      url('/fonts/mont/Mont-Regular.woff') format('woff'),
+      url('/fonts/mont/Mont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+.border-color-sky {
+  @apply border-sky-600 text-sky-500;
+}
+.border-color-pink {
+  @apply border-pink-500 text-pink-500;
+}

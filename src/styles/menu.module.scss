@@ -1,0 +1,12 @@
+.selected {
+  &:before {
+    content: '';
+    position: absolute;
+    background: #d9339c;
+    width: 6px;
+    height: 6px;
+    top: 26px;
+    border-radius: 100%;
+    left: calc(51% - 6px);
+  }
+}
